@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Lazy tabs",
+  "version": "1.0",
+  "description": "My first Chrome extension.",
+  "browser_action": {
+	"default_popup": "main.html"
+  },
+  "permissions" : ["tabs","storage","bookmarks"],
+  "offline_enabled": true,
+  "options_page": "option.html"
+}
